@@ -7,7 +7,7 @@
 * Utilized signal handler in Linux such as SIGTSTP and SIGALRM to solve time calculating and threads information monitoring issues.
 
 * Configurated the thread using JSON.
-* 
+
 ## Directories
 * function_library.h, function_library.c -> Thread function
 * os_2021_thread_api.h, os_2021_thread_api.c -> Thread application interface function
