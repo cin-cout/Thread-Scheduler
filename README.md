@@ -1,11 +1,13 @@
 # Thread-Scheduler
 
-•	Featured with 3-level non-preemptive priority feedback queue and Round Robin(RR) scheduling with different Time Quantum(TQ)
+*	Featured with 3-level non-preemptive priority feedback queue and Round Robin(RR) scheduling with different Time Quantum(TQ).
 
-•	Implemented context switch using ucontext and related APIs in Linux
+*	Implemented context switch using ucontext and related APIs in Linux.
 
-•	Utilized signal handler in Linux such as SIGTSTP and SIGALRM to solve time calculating and threads information monitoring issues
+* Utilized signal handler in Linux such as SIGTSTP and SIGALRM to solve time calculating and threads information monitoring issues.
 
+* Configurated the thread using JSON.
+* 
 ## Directories
 * function_library.h, function_library.c -> Thread function
 * os_2021_thread_api.h, os_2021_thread_api.c -> Thread application interface function
